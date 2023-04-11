@@ -1,4 +1,4 @@
-# MLOps Foundation Engagement
+# Red Hat OpenShift Data Science Platform Engagement
 
 ## Red Hat AI/ML Service Offerings
 
