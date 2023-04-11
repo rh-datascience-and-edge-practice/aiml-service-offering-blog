@@ -51,7 +51,7 @@ A longer term engagement generally start with a minimum 12 weeks of time with Re
 
 ## Pre-Reqs
 
-Customers are required to have a functioning OpenShift cluster prior to the start of the engagement with a dynamic storage provisioning such as OpenShift Data Foundations.  
+Customers are required to have a functioning OpenShift cluster prior to the start of the engagement with a dynamic storage provisioning such as OpenShift Data Foundations or the VMWare CSI Driver Operator.
 
 The MLOps Foundation is a great follow up engagement for a customer that has completed the RHODS Platform Engagement, but it is not strictly required.  If the customer has not yet installed RHODS on the target cluster, additional time may need to be scoped to configure a minimum install of RHODS.
 
@@ -59,4 +59,4 @@ For the most success with the MLOps Foundation, it is strongly recommended that 
 
 ## Conclusion
 
-If you our your business are interested in AI/ML Services offered by Red Hat, speak to your Red Hat account team, or reach out via https://www.redhat.com/en/contact?contact=sales.
+If you or your business are interested in AI/ML Services offered by Red Hat, speak to your Red Hat account team, or reach out via https://www.redhat.com/en/contact?contact=sales.
