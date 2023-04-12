@@ -2,21 +2,32 @@
 
 ## Red Hat AI/ML Service Offerings
 
-In 2021, Red Hat released Red Hat OpenShift Data Science (RHODS) as a Tech Preview (TP) product, available as a managed service offering available on select cloud platforms.  Earlier this year Red Hat officially made RHODS Generally Available (GA), which included releasing support for Red Hat OpenShift Data Science as a self-managed service offering, bringing the data science tools to even more OpenShift users.
+In 2021, Red Hat released Red Hat OpenShift Data Science (RHODS) as a Tech Preview (TP) product, available as a managed service offering on select cloud platforms.  Earlier this year Red Hat officially made RHODS Generally Available (GA), which included releasing support for RHODS as a self-managed service offering, bringing the data science tools to even more OpenShift users.
 
-With the growing number of Red Hat customers seeking to expand their data science capabilities, the Data Science & Edge Practice at Red Hat has created several consulting service offerings to help meet our customers wherever they are at on their data science journey, the Red Hat OpenShift Data Science Platform Engagement, and the MLOps Foundation Engagement.
+With the growing number of Red Hat customers seeking to expand their data science capabilities, the Data Science & Edge Practice at Red Hat created the RHODS Platform Engagement and the MLOps Foundation Engagement service offerings to help meet our customers wherever they are on their data science journey.
 
-The Red Hat OpenShift Data Science Platform Engagement focuses on helping customers get up and running with RHODS and integrate it with their existing enterprise services.  The MLOps Foundation Engagement is designed to help customers that have trained a machine learning model and are hoping to leverage MLOps to move beyond a data science experiment, and to create a production ready ML service.
+The RHODS Platform Engagement focuses on helping customers get up and running with RHODS and integrate it with their other enterprise tools. The MLOps Foundation Engagement is designed to help customers that have trained a machine learning model and are hoping to leverage MLOps to move beyond a data science experiment, and to create a production ready ML service.
 
-This article will focus on the Red Hat OpenShift Data Science Platform Engagement, but to learn more about the MLOps Foundation Engagement, see the companion post [here](mlops-foundation.md).
+This article will focus on the Red Hat OpenShift Data Science Platform Engagement. To learn more about the MLOps Foundation Engagement, see the companion post [here](mlops-foundation.md).
 
 ## Red Hat OpenShift Data Science Platform Engagement
 
-The Red Hat OpenShift Data Science Platform Engagement focuses getting customers up and running with RHODS quickly, and helping their teams get the most out of the tools.
+The RHODS Platform Engagement focuses on establisning a data science platform on OpenShift in any environment, from cloud based clusters to fully disconnected on-prem environments. 
 
-The RHODS Platform Engagement starts by helping to standing up the tooling in any environment, from cloud based OpenShift clusters, to fully disconnected on-prem environments.  Additional, the Red Hat team will help to identify any critical integration points in existing systems, or additional tooling needed to meet each customers unique requirements and help to integrate those into the RHODS Platform. The Red Hat team will also help to assess your Data Science team's unique requirements such as creating custom Jupyter Notebook images, to your team rapidly and consistently prototype solutions.
+Architecture sessions will help to identify any critical integration points in existing systems, or additional tooling needed to meet each customers unique requirements. The Red Hat team will:
+* Work with the customer to determine the tools required for their AI/ML platform.
+* Perform an architecture review to understand the client’s environment and determine how RHODS will be integrated.
 
-In cases where GPUs are required the Red Hat team can also assist with configuring GPUs in the cluster and setup the necessary components such as the NVIDIA GPU operator to make GPUs available to Data Scientists at the click of a button.
+The Red Hat team will preform the deployment and configuration of all components defined in the architecture design sessions. 
+* Work with customer to appropriately size configurations, integrate with data systems, and configure hardware accelerators such as GPUs. 
+* Install, configure, and integrate data processing tools such as Spark and Ray. 
+* Integrate with other AI/ML tools outside of RHODS.
+
+Customize components of RHODS platform based on architecture design sessions.
+* Develop custom pipelines for:
+  * model training
+  * data integration
+* Create custom notebook images.
 
 ## Engagement Approach
 
@@ -26,7 +37,7 @@ After establishing the platform, Red Hat will work directly with Data Scientists
 
 ## Engagement Sizing
 
-The Red Hat OpenShift Data Science Platform Engagement is available in a number of different sizing options to meet specific customer needs including PoC and dev cluster setup, or larger multi-cluster setups.
+The RHODS Platform Engagement is available in a number of different sizing options to meet specific customer needs including PoC and dev cluster setup, or larger multi-cluster setups.
 
 A basic Proof of Concopt (PoC) engagement will usually start at 6 weeks of time with Red Hat providing two part time resources (Project Manager and Architect) and one full time resource (Senior Consultant). A PoC engagement will generally target a smaller cluster, possibly a managed cluster from a cloud provider such as ROSA (Red Hat OpenShift Service on AWS) or ARO (Microsoft Azure Red hat OpenShift) environments.  The goal of such engagements is generally to evaluate tooling and provide some basic customizations to validate the RHODS platform within your own environment for a small number of users (1-5 users).
 
